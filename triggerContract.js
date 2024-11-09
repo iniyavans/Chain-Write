@@ -98,7 +98,6 @@ const contractParams = {
     console.log('Response:', JSON.stringify(response, replacer, 2));
 })();
 
-// Uncomment the following to run this function every day at midnight
 // cron.schedule('0 0 * * *', async () => {
 //     try {
 //         const response = await triggerContractFunction(providerURL, contractAddress, account, privateKey, contractABI, contractParams);
